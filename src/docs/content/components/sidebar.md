@@ -50,7 +50,7 @@ Use this example to learn how to stack multiple sidebar menu items inside one dr
 
 {{< example id="multi-level" github="components/sidebar.md" >}}
 import { Sidebar } from "flowbite-mithril";
-import { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon, ColumnIcon } from "flowbite-icons-mithril/solid";
+import { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon } from "flowbite-icons-mithril/solid";
 import { ShoppingBagIcon, TableRowIcon } from "flowbite-icons-mithril/outline";
 
 const Component = {
@@ -110,7 +110,7 @@ const Component = {
 ## Sidebar with button
 
 {{< example id="cta" github="components/sidebar.md" >}}
-import { Sidebar } from "flowbite-mithril";
+import { Sidebar, Badge } from "flowbite-mithril";
 import { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon, ColumnIcon } from "flowbite-icons-mithril/solid";
 import { ShoppingBagIcon, TableRowIcon } from "flowbite-icons-mithril/outline";
 

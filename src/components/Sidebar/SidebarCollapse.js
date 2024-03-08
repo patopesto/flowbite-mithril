@@ -11,7 +11,7 @@ export const SidebarCollapse = {
     state.isOpen = open;
 
     for (const child of children) {
-      child.state.isInsideCollapse = true;
+      child.attrs.isInsideCollapse = true;
     }
     // call redraw so the DOM is updated
     // with the state values we just set
