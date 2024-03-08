@@ -29,7 +29,7 @@ import { Navbar } from "flowbite-mithril";
 const Component = {
   view: () =>
     m(Navbar, { fluid: true, rounded: true }, [
-      m(Navbar.Brand, { href: "https://alexferl.github.io/flowbite-mithril" }, [
+      m(Navbar.Brand, { href: "https://patopesto.github.io/flowbite-mithril" }, [
         m("img", {
           src: "/flowbite-mithril/images/logo.svg",
           class: "mr-3 h-6 sm:h-9",
@@ -55,7 +55,7 @@ const Component = {
 
 ## Theme
 
-To learn more about how to customize the appearance of components, please see the [Theme docs](https://alexferl.github.io/flowbite-mithril/customize/theme/).
+To learn more about how to customize the appearance of components, please see the [Theme docs](https://patopesto.github.io/flowbite-mithril/customize/theme/).
 
 {{< example id="theme" lang="json" show_preview=false >}}
 {

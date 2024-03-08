@@ -45,7 +45,7 @@ github: GitHub URL
 </div>
 
 {{ if eq $lang "javascript" }}
-{{- $code = (replace (replace (replace (.Inner) "\"flowbite-mithril\"" "\"https://alexferl.github.io/flowbite-mithril/js/flowbite-mithril.js\"") "\"flowbite-icons-mithril/solid\"" "\"https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/solid/index.js\"")
+{{- $code = (replace (replace (replace (.Inner) "\"flowbite-mithril\"" "\"https://patopesto.github.io/flowbite-mithril/js/flowbite-mithril.js\"") "\"flowbite-icons-mithril/solid\"" "\"https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/solid/index.js\"")
 "\"flowbite-icons-mithril/outline\"" "\"https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/outline/index.js\"") | safeJS -}}
 <script type="module">
   var root = document.getElementById("example-{{ $id }}")
