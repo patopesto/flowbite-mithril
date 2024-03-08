@@ -19,6 +19,7 @@ import { navbarTheme } from "./components/Navbar/theme.js";
 import { radioTheme } from "./components/Radio/theme.js";
 import { rangeTheme } from "./components/Range/theme.js";
 import { selectTheme } from "./components/Select/theme.js";
+import { sidebarTheme } from "./components/Sidebar/theme.js";
 import { spinnerTheme } from "./components/Spinner/theme.js";
 import { tableTheme } from "./components/Table/theme.js";
 import { textareaTheme } from "./components/Textarea/theme.js";
@@ -47,6 +48,7 @@ export const theme = {
   radio: radioTheme,
   range: rangeTheme,
   select: selectTheme,
+  sidebar: sidebarTheme,
   spinner: spinnerTheme,
   table: tableTheme,
   textarea: textareaTheme,

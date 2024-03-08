@@ -30,7 +30,7 @@ Work in progress.
 |  Pagination  | ❌    |
 | Progress bar | ❌    |
 |    Rating    | ❌    |
-|   Sidebar    | ❌    |
+|   Sidebar    | ✅    | `collapse` attribute needs to be manually set for all children |
 |   Spinner    | ✅    |
 |    Table     | 🚧   | Missing hover/striped |
 |     Tabs     | ❌    |
