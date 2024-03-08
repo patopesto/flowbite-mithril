@@ -2,64 +2,66 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alexferl.github.io/flowbite-mithril/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/accordion/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/accordion/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/alert/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/alert/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/avatar/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/avatar/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/badge/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/badge/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/banner/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/banner/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/breadcrumb/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/breadcrumb/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/button/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/button/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/button-group/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/button-group/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/card/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/card/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/forms/checkbox/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/forms/checkbox/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/customize/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/customize/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/dropdown/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/dropdown/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/forms/file-input/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/forms/file-input/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/footer/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/footer/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/forms/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/forms/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/getting-started/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/getting-started/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/forms/input/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/forms/input/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/kbd/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/kbd/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/list-group/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/list-group/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/navbar/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/navbar/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/getting-started/quickstart/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/getting-started/quickstart/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/forms/radio/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/forms/radio/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/forms/range/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/forms/range/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/forms/select/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/forms/select/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/components/spinner/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/sidebar/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/forms/textarea/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/components/spinner/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/customize/theme/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/forms/textarea/</loc>
   </url><url>
-    <loc>https://alexferl.github.io/flowbite-mithril/forms/toggle/</loc>
+    <loc>http://localhost:1313/flowbite-mithril/customize/theme/</loc>
+  </url><url>
+    <loc>http://localhost:1313/flowbite-mithril/forms/toggle/</loc>
   </url>
 </urlset>

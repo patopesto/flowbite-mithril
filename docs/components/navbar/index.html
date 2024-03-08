@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<head>
+<head><script src="/flowbite-mithril/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=flowbite-mithril/livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="The navbar component can be used to show a list of navigation links positioned on the top side of your page based on multiple layouts, sizes, and dropdowns">
 <meta name="author" content="">
-<meta name="generator" content="Hugo 0.120.3">
+<meta name="generator" content="Hugo 0.123.3">
 
 <title>Navbar</title>
 
-<link rel="canonical" href="https://alexferl.github.io/flowbite-mithril/components/navbar/">
+<link rel="canonical" href="http://localhost:1313/flowbite-mithril/components/navbar/">
 
 
 
 
 
-<link rel="stylesheet" href="/flowbite-mithril/css/styles.min.4487a333d32f9dfa84910f28e6ce204fdff0ae99966c4d8d19e121ccda83d454.css">
+<link rel="stylesheet" href="/flowbite-mithril/css/styles.dev.1709939031215.css">
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
 
@@ -145,6 +145,9 @@
           </li>
           <li>
             <a href="/flowbite-mithril/components/navbar/" data-sidebar-item class="py-2 transition-colors duration-200 relative flex items-center flex-wrap font-medium hover:text-gray-900 text-gray-500 dark:text-gray-400 dark:hover:text-white  !text-blue-700 hover:!text-blue-700 dark:!text-blue-500 dark:hover:!text-blue-500" aria-current="page">Navbar </a>
+          </li>
+          <li>
+            <a href="/flowbite-mithril/components/sidebar/" data-sidebar-item class="py-2 transition-colors duration-200 relative flex items-center flex-wrap font-medium hover:text-gray-900 text-gray-500 dark:text-gray-400 dark:hover:text-white ">Sidebar </a>
           </li>
           <li>
             <a href="/flowbite-mithril/components/spinner/" data-sidebar-item class="py-2 transition-colors duration-200 relative flex items-center flex-wrap font-medium hover:text-gray-900 text-gray-500 dark:text-gray-400 dark:hover:text-white ">Spinner </a>
@@ -313,48 +316,80 @@ const Component = {
       <div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-json" data-lang="json"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;root&#34;</span>: {
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;bg-white px-2 py-2.5 dark:border-gray-700 dark:bg-gray-800 sm:px-4&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;rounded&#34;</span>: {
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;rounded&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;h-full&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;collapsed&#34;</span>: {
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;w-16&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;w-64&#34;</span>
 </span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;bordered&#34;</span>: {
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;border&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;inner&#34;</span>: {
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;mx-auto flex flex-wrap items-center justify-between&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;fluid&#34;</span>: {
-</span></span><span style="display:flex;"><span>        <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;container&#34;</span>
-</span></span><span style="display:flex;"><span>      }
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>  },
-</span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;brand&#34;</span>: {
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;flex items-center&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;inner&#34;</span>: <span style="color:#a5d6ff">&#34;h-full overflow-y-auto overflow-x-hidden rounded bg-gray-50 py-4 px-3 dark:bg-gray-800&#34;</span>
 </span></span><span style="display:flex;"><span>  },
 </span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;collapse&#34;</span>: {
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;w-full md:block md:w-auto&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;list&#34;</span>: <span style="color:#a5d6ff">&#34;mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;hidden&#34;</span>: {
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;hidden&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>  },
-</span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;link&#34;</span>: {
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;block py-2 pr-4 pl-3 md:p-0&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;active&#34;</span>: {
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;bg-blue-700 text-white dark:text-white md:bg-transparent md:text-blue-700&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;border-b border-gray-100 text-gray-700 hover:bg-gray-50 dark:border-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white md:border-0 md:hover:bg-transparent md:hover:text-blue-700 md:dark:hover:bg-transparent md:dark:hover:text-white&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;button&#34;</span>: <span style="color:#a5d6ff">&#34;group flex w-full items-center rounded-lg p-2 text-base font-normal text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;icon&#34;</span>: {
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;h-6 w-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;open&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;text-gray-900&#34;</span>
+</span></span><span style="display:flex;"><span>      }
 </span></span><span style="display:flex;"><span>    },
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;disabled&#34;</span>: {
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;text-gray-400 hover:cursor-not-allowed dark:text-gray-600&#34;</span>,
-</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;label&#34;</span>: {
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;ml-3 flex-1 whitespace-nowrap text-left&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;icon&#34;</span>: {
+</span></span><span style="display:flex;"><span>        <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;h-6 w-6 transition ease-in-out delay-0&#34;</span>,
+</span></span><span style="display:flex;"><span>        <span style="color:#7ee787">&#34;open&#34;</span>: {
+</span></span><span style="display:flex;"><span>          <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;rotate-180&#34;</span>,
+</span></span><span style="display:flex;"><span>          <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>        }
+</span></span><span style="display:flex;"><span>      }
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;list&#34;</span>: <span style="color:#a5d6ff">&#34;space-y-2 py-2&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;cta&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;mt-6 rounded-lg p-4 bg-gray-100 dark:bg-gray-700&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;color&#34;</span>: {
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;blue&#34;</span>: <span style="color:#a5d6ff">&#34;bg-cyan-50 dark:bg-cyan-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;dark&#34;</span>: <span style="color:#a5d6ff">&#34;bg-dark-50 dark:bg-dark-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;failure&#34;</span>: <span style="color:#a5d6ff">&#34;bg-red-50 dark:bg-red-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;gray&#34;</span>: <span style="color:#a5d6ff">&#34;bg-alternative-50 dark:bg-alternative-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;green&#34;</span>: <span style="color:#a5d6ff">&#34;bg-green-50 dark:bg-green-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;light&#34;</span>: <span style="color:#a5d6ff">&#34;bg-light-50 dark:bg-light-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;red&#34;</span>: <span style="color:#a5d6ff">&#34;bg-red-50 dark:bg-red-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;purple&#34;</span>: <span style="color:#a5d6ff">&#34;bg-purple-50 dark:bg-purple-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;success&#34;</span>: <span style="color:#a5d6ff">&#34;bg-green-50 dark:bg-green-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;yellow&#34;</span>: <span style="color:#a5d6ff">&#34;bg-yellow-50 dark:bg-yellow-900&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;warning&#34;</span>: <span style="color:#a5d6ff">&#34;bg-yellow-50 dark:bg-yellow-900&#34;</span>
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>  },
-</span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;toggle&#34;</span>: {
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 md:hidden&#34;</span>,
-</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;icon&#34;</span>: <span style="color:#a5d6ff">&#34;h-6 w-6 shrink-0&#34;</span>
+</span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;item&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;flex items-center justify-center rounded-lg p-2 text-base font-normal text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;active&#34;</span>: <span style="color:#a5d6ff">&#34;bg-gray-100 dark:bg-gray-700&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;collapsed&#34;</span>: {
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;insideCollapse&#34;</span>: <span style="color:#a5d6ff">&#34;group w-full pl-8 transition duration-75&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;noIcon&#34;</span>: <span style="color:#a5d6ff">&#34;font-bold&#34;</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;content&#34;</span>: {
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;px-3 flex-1 whitespace-nowrap&#34;</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;icon&#34;</span>: {
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;active&#34;</span>: <span style="color:#a5d6ff">&#34;text-gray-700 dark:text-gray-100&#34;</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;label&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;listItem&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;items&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;itemGroup&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700&#34;</span>
+</span></span><span style="display:flex;"><span>  },
+</span></span><span style="display:flex;"><span>  <span style="color:#7ee787">&#34;logo&#34;</span>: {
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;base&#34;</span>: <span style="color:#a5d6ff">&#34;mb-5 flex items-center pl-2.5&#34;</span>,
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;collapsed&#34;</span>: {
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;on&#34;</span>: <span style="color:#a5d6ff">&#34;hidden&#34;</span>,
+</span></span><span style="display:flex;"><span>      <span style="color:#7ee787">&#34;off&#34;</span>: <span style="color:#a5d6ff">&#34;self-center whitespace-nowrap text-xl font-semibold dark:text-white&#34;</span>
+</span></span><span style="display:flex;"><span>    },
+</span></span><span style="display:flex;"><span>    <span style="color:#7ee787">&#34;img&#34;</span>: <span style="color:#a5d6ff">&#34;mr-3 h-6 sm:h-7&#34;</span>
 </span></span><span style="display:flex;"><span>  }
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div>
@@ -373,7 +408,7 @@ const Component = {
               </svg>List Group</a>
               
               
-              <a class="flex items-center justify-center ml-auto text-right text-gray-500 transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" href="/flowbite-mithril/components/spinner/">Spinner<svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <a class="flex items-center justify-center ml-auto text-right text-gray-500 transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" href="/flowbite-mithril/components/sidebar/">Sidebar<svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
               </svg></a>
               

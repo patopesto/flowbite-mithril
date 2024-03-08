@@ -23,7 +23,7 @@ export const SidebarLogo = {
         class: twMerge(theme.base, className),
         ...props,
       },
-      m("img", { src: img, alt: imgAlt }),
+      m("img", { src: img, alt: imgAlt, class: theme.img }),
       m(
         "span",
         {

@@ -5,8 +5,8 @@ description: Indicate a loading status when fetching data by using the spinner c
 group: components
 toc: true
 
-previous: Navbar
-previousLink: components/navbar/
+previous: Sidebar
+previousLink: components/sidebar/
 next: Checkbox
 nextLink: forms/checkbox/
 ---
