@@ -5,12 +5,12 @@ import { sidebarTheme } from "./theme.js";
 import { Badge } from "../Badge/Badge.js";
 
 export const SidebarItem = {
-  isInsideCollapse: false,
   view({ attrs, children, state }) {
     const {
       class: className,
       as: Component = "a",
       collapsed: isCollapsed = false,
+      isInsideCollapse = false,
       active,
       icon,
       label,
@@ -28,7 +28,7 @@ export const SidebarItem = {
           class: twMerge(
             theme.base,
             active && theme.active,
-            isCollapsed && state.isInsideCollapse && theme.collapsed?.insideCollapse,
+            isCollapsed && isInsideCollapse && theme.collapsed?.insideCollapse,
             className,
           ),
           ...props,
