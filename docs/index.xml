@@ -2,191 +2,191 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Flowbite Mithril</title>
-    <link>http://localhost:1313/flowbite-mithril/</link>
+    <link>https://patopesto.github.io/flowbite-mithril/</link>
     <description>Recent content on Flowbite Mithril</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/flowbite-mithril/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://patopesto.github.io/flowbite-mithril/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Accordion</title>
-      <link>http://localhost:1313/flowbite-mithril/components/accordion/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/accordion/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/accordion/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/accordion/</guid>
       <description>The accordion component from Flowbite Mithril can be used to toggle the visibility of the content of each accordion panel tab by expanding the collapsing the trigger element based on multiple examples and styles.&#xA;The reactivity and state is handled by Mithril and the components is built using the Tailwind CSS framework meaning that you can easily customize the styles and colors of the accordion.&#xA;Default accordion # Use this example of the &amp;lt;Accordion&amp;gt; component and the &amp;lt;Accordion.</description>
     </item>
     <item>
       <title>Alert</title>
-      <link>http://localhost:1313/flowbite-mithril/components/alert/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/alert/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/alert/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/alert/</guid>
       <description>The alert component can be used to show a contextual text to the user such as a success or error message after form validation inside an alert box where you can choose from multiple colors, sizes, and styles.&#xA;The examples below are styled with Tailwind CSS and the reactivity is handled by Mithril and you can also add any type of content inside the alert box.&#xA;Default alert # The default alert component is a simple alert box with a text inside it and you can use the color attribute to change the color of the alert box and the title attribute to add a title to the alert box.</description>
     </item>
     <item>
       <title>Avatar</title>
-      <link>http://localhost:1313/flowbite-mithril/components/avatar/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/avatar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/avatar/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/avatar/</guid>
       <description>The avatar component can be used as a visual identifier for a user profile on your website and you can use the examples from Flowbite to modify the styles and sizes of these components using the utility classes from Tailwind CSS.&#xA;Default avatar # Here&amp;rsquo;s a default example of the Avatar component where you can use the img attribute to pass the image URL, the alt attribute to pass a description of the image for accessibility and the rounded attribute to make the avatar rounded.</description>
     </item>
     <item>
       <title>Badge</title>
-      <link>http://localhost:1313/flowbite-mithril/components/badge/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/badge/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/badge/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/badge/</guid>
       <description>The badge component can be used to show text, labels, and counters inside a small box or circle element which can be placed inside paragraphs, buttons, dropdowns, menu items, and more.&#xA;You can choose from multiple examples of badges based on the color, size, and icon and even use it as a link component by leveraging the properties from Mithril and classes from Tailwind CSS.&#xA;Default badges # Here&amp;rsquo;s a list of default &amp;lt;Badge&amp;gt; component examples where you can use the color attribute to change the color of the badge based on contextual colors such as info, gray, success, and more.</description>
     </item>
     <item>
       <title>Banner</title>
-      <link>http://localhost:1313/flowbite-mithril/components/banner/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/banner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/banner/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/banner/</guid>
       <description></description>
     </item>
     <item>
       <title>Breadcrumb</title>
-      <link>http://localhost:1313/flowbite-mithril/components/breadcrumb/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/breadcrumb/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/breadcrumb/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/breadcrumb/</guid>
       <description>The breadcrumb component can be used to indicate the current page&amp;rsquo;s location within a navigational hierarchy and you can choose from multiple examples, colors, and sizes built with Mithril and based on the utility classes from Tailwind CSS.&#xA;Default breadcrumb # Use the &amp;lt;Breadcrumb&amp;gt; component and the child &amp;lt;Breadcrumb.Item&amp;gt; components to create and indicate a series of page structure and URLs to help the user navigate through the website.&#xA;You can use the href attribute to make the breadcrumb items clickable and the icon attribute to add an icon to the breadcrumb item such as for the homepage.</description>
     </item>
     <item>
       <title>Button</title>
-      <link>http://localhost:1313/flowbite-mithril/components/button/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/button/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/button/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/button/</guid>
       <description>The button component is a common UI component found on the web that allows users to trigger certain actions on your website such as submitting a form, navigating to a new page, or downloading a file.&#xA;The examples from the Flowbite Mithril library allows you to customise the buttons with different colors, sizes, icons, and more. All examples are built with Mithril and Tailwind CSS.&#xA;Default buttons # Use this example to create a default button by using the &amp;lt;Button&amp;gt; component and by adding the color attribute you can change the color of the button.</description>
     </item>
     <item>
       <title>Button Group</title>
-      <link>http://localhost:1313/flowbite-mithril/components/button-group/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/button-group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/button-group/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/button-group/</guid>
       <description>The button group component from Flowbite Mithril can be used to stack multiple button elements and group them visually together. It can often be used to create a navigation menu or a toolbar.&#xA;Choose from multiple examples and you can update properties such as the color, size, and appearance using the attributes from Mithril and utility classes from Tailwind CSS.&#xA;Default button group # Use this example of the &amp;lt;Button.Group&amp;gt; component by adding the Button component as a child element and stack them together.</description>
     </item>
     <item>
       <title>Card</title>
-      <link>http://localhost:1313/flowbite-mithril/components/card/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/card/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/card/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/card/</guid>
       <description>The card component can be used to show a wide variety of content such as previews of blog posts, user profiles, pricing plans, and more. Choose from one of the many examples built with Mithril and the utility classes from Tailwind CSS.&#xA;Default card # Use this example to show a simple card component with a title and description and apply the href attribute to the &amp;lt;Card&amp;gt; component to set a hyperlink on the card.</description>
     </item>
     <item>
       <title>Checkbox</title>
-      <link>http://localhost:1313/flowbite-mithril/forms/checkbox/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/forms/checkbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/forms/checkbox/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/forms/checkbox/</guid>
       <description>The checkbox component can be used to receive one or more selected options from the user in the form of a square box available in multiple styles, sizes, colors, and variants.&#xA;Default checkbox # Use this example to show a list of options to your users that they can choose from by using the &amp;lt;Checkbox&amp;gt; component.&#xA;Edit on GitHub import { Checkbox, Label } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex max-w-md flex-col gap-4&amp;#34;, id: &amp;#34;checkbox&amp;#34; }, [ m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex items-center gap-2&amp;#34; }, [ m(Checkbox, { id: &amp;#34;accepted&amp;#34;, checked: true }), m(Label, { for: &amp;#34;accepted&amp;#34;, class: &amp;#34;flex&amp;#34; }, [ &amp;#34; I agree with the&amp;#34;, m.</description>
     </item>
     <item>
       <title>Dropdown</title>
-      <link>http://localhost:1313/flowbite-mithril/components/dropdown/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/dropdown/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/dropdown/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/dropdown/</guid>
       <description>The dropdown component is a UI component built with Mithril that allows you to show a list of items when clicking on a trigger element (i.e. a button) that you can use to build dropdown menus, lists, and more.&#xA;The default styles are built with the utility classes from Tailwind CSS and you can use the custom attributes from Mithril to customize the behaviour and positioning of the dropdowns.&#xA;Default dropdown # Edit on GitHub import { Dropdown } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(Dropdown, { label: &amp;#34;Dropdown button&amp;#34;, dismissOnClick: false }, [ m(Dropdown.</description>
     </item>
     <item>
       <title>File Input</title>
-      <link>http://localhost:1313/flowbite-mithril/forms/file-input/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/forms/file-input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/forms/file-input/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/forms/file-input/</guid>
       <description>Default file input # Use the &amp;lt;FileInput&amp;gt; component to allow users to upload files from their browser.&#xA;Edit on GitHub import { FileInput, Label } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(&amp;#34;div&amp;#34;, { id: &amp;#34;fileUpload&amp;#34;, class: &amp;#34;max-w-md&amp;#34; }, [ m( &amp;#34;div&amp;#34;, { class: &amp;#34;mb-2 block&amp;#34; }, m(Label, { for: &amp;#34;file&amp;#34;, value: &amp;#34;Upload file&amp;#34; }), m(FileInput, { id: &amp;#34;file&amp;#34;, helperText: &amp;#34;A profile picture is useful to confirm your are logged into your account&amp;#34;, }), ), ]), }; Theme # To learn more about how to customize the appearance of components, please see the Theme docs.</description>
     </item>
     <item>
       <title>Footer</title>
-      <link>http://localhost:1313/flowbite-mithril/components/footer/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/footer/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/footer/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/footer/</guid>
       <description>The footer component is an important section of a website where you should provide content such as sitemap links, copyright text, logo of your brand, social media account links, and more.&#xA;Get started with the examples from Flowbite Mithril based on multiple styles, sizes, and colors by using Mithril components and the utility classes from Tailwind CSS.&#xA;Default footer # Edit on GitHub import { Footer } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(Footer, { container: true }, [ m(Footer.</description>
     </item>
     <item>
       <title>Input</title>
-      <link>http://localhost:1313/flowbite-mithril/forms/input/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/forms/input/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/forms/input/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/forms/input/</guid>
       <description>The input field is an important part of the form element that can be used to create interactive controls to accept data from the user based on multiple input types, such as text, email, number, password, URL, phone number, and more.&#xA;On this page you will find all of the input types based on multiple variants, styles, colors, and sizes built with the utility classes from Tailwind CSS and components from Flowbite.</description>
     </item>
     <item>
       <title>KBD</title>
-      <link>http://localhost:1313/flowbite-mithril/components/kbd/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/kbd/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/kbd/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/kbd/</guid>
       <description>The KBD (Keyboard) component can be used to indicate a textual user input from the keyboard inside other elements such as in text, tables, cards, and more.&#xA;Use the semantic &amp;lt;Kbd&amp;gt; keyboard input tag to use the default monospace font which is best suited for representing input keys.&#xA;Default KBD # Here’s a list of KBD components that you can use inside any other element.&#xA;Edit on GitHub import { Kbd } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex flex-wrap gap-1&amp;#34; }, [ m(Kbd, &amp;#34;Shift&amp;#34;), m(Kbd, &amp;#34;Ctrl&amp;#34;), m(Kbd, &amp;#34;Tab&amp;#34;), m(Kbd, &amp;#34;Caps Lock&amp;#34;), m(Kbd, &amp;#34;Esc&amp;#34;), m(Kbd, &amp;#34;Spacebar&amp;#34;), m(Kbd, &amp;#34;Enter&amp;#34;), ]), }; Theme # To learn more about how to customize the appearance of components, please see the Theme docs.</description>
     </item>
     <item>
       <title>List Group</title>
-      <link>http://localhost:1313/flowbite-mithril/components/list-group/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/list-group/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/list-group/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/list-group/</guid>
       <description>The list group component can be used to show a list of items inside an unordered list for website navigation, show a list of items inside a card, and more.&#xA;You can choose from one of the examples below based on various styles and options and you can customize the component with Mithril attributes and the classes from Tailwind CSS.&#xA;Default list group # Use the default example to create a simple list of items inside a menu by using the ListGroup component with ListGroup.</description>
     </item>
     <item>
       <title>Navbar</title>
-      <link>http://localhost:1313/flowbite-mithril/components/navbar/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/navbar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/navbar/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/navbar/</guid>
       <description>The navbar component is an important section of any website as it is the first section that appears on any page and it serves the purpose of allowing your users to navigate throughout your website.&#xA;Generally, the navigation bar consists of the logo of your website, a list of menu items for navigation and other secondary elements such as buttons, dropdowns, and a hamburger menu for mobile devices.&#xA;All interactivity and options are handled by using Mithril attributes and you can customise the appearance of the navbar using the classes from Tailwind CSS.</description>
     </item>
     <item>
       <title>Quickstart</title>
-      <link>http://localhost:1313/flowbite-mithril/getting-started/quickstart/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/getting-started/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/getting-started/quickstart/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/getting-started/quickstart/</guid>
       <description>Getting started # You can install Flowbite Mithril to any Node.js project.&#xA;You&amp;rsquo;ll need to be familiar with Node.js, and have it installed.&#xA;Setup Tailwind CSS # Install Tailwind CSS:&#xA;npm i autoprefixer postcss tailwindcss npx tailwindcss init -p Point Tailwind CSS to files you have class=&amp;quot;...&amp;quot; in:&#xA;module.exports = { content: [&amp;#34;./src/**/*.js&amp;#34;], theme: { extend: {}, }, plugins: [], }; Add Tailwind CSS to a CSS file:&#xA;@tailwind base; @tailwind components; @tailwind utilities; Install Flowbite Mithril # Install Flowbite and Flowbite Mithril:</description>
     </item>
     <item>
       <title>Radio</title>
-      <link>http://localhost:1313/flowbite-mithril/forms/radio/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/forms/radio/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/forms/radio/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/forms/radio/</guid>
       <description>Default radio # Ask your users to choose only one value from multiple options based on the &amp;lt;Radio&amp;gt; component.&#xA;Edit on GitHub import { Label, Radio } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(&amp;#34;fieldset&amp;#34;, { class: &amp;#34;flex max-w-md flex-col gap-4&amp;#34; }, [ m(&amp;#34;legend&amp;#34;, { class: &amp;#34;mb-4 text-gray-400&amp;#34; }, &amp;#34;Choose your favorite country&amp;#34;), m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex items-center gap-2&amp;#34; }, [ m(Radio, { id: &amp;#34;united-states&amp;#34;, name: &amp;#34;countries&amp;#34;, value: &amp;#34;USA&amp;#34;, checked: true }), m(Label, { for: &amp;#34;united-states&amp;#34; }, &amp;#34;United States&amp;#34;), ]), m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex items-center gap-2&amp;#34; }, [ m(Radio, { id: &amp;#34;germany&amp;#34;, name: &amp;#34;countries&amp;#34;, value: &amp;#34;Germany&amp;#34; }), m(Label, { for: &amp;#34;germany&amp;#34; }, &amp;#34;Germany&amp;#34;), ]), m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex items-center gap-2&amp;#34; }, [ m(Radio, { id: &amp;#34;spain&amp;#34;, name: &amp;#34;countries&amp;#34;, value: &amp;#34;Spain&amp;#34; }), m(Label, { for: &amp;#34;spain&amp;#34; }, &amp;#34;Spain&amp;#34;), ]), m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex items-center gap-2&amp;#34; }, [ m(Radio, { id: &amp;#34;uk&amp;#34;, name: &amp;#34;countries&amp;#34;, value: &amp;#34;United Kingdon&amp;#34; }), m(Label, { for: &amp;#34;uk&amp;#34; }, &amp;#34;United Kingdom&amp;#34;), ]), m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex items-center gap-2&amp;#34; }, [ m(Radio, { id: &amp;#34;china&amp;#34;, name: &amp;#34;countries&amp;#34;, value: &amp;#34;China&amp;#34;, disabled: true }), m(Label, { for: &amp;#34;china&amp;#34;, disabled: true }, &amp;#34;China (disabled)&amp;#34;), ]), ]), }; Theme # To learn more about how to customize the appearance of components, please see the Theme docs.</description>
     </item>
     <item>
       <title>Range</title>
-      <link>http://localhost:1313/flowbite-mithril/forms/range/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/forms/range/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/forms/range/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/forms/range/</guid>
       <description>Default radio # The range component can be used as an input field to get a number from the user based on your custom selection (ie. from 1 to 100) by using a sliding animation.&#xA;Edit on GitHub import { Label, Range } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m( &amp;#34;div&amp;#34;, { class: &amp;#34;flex max-w-md flex-col gap-4&amp;#34; }, m(&amp;#34;div&amp;#34;, [ m(&amp;#34;div&amp;#34;, { class: &amp;#34;mb-1 block&amp;#34; }, [ m(Label, { for: &amp;#34;default-range&amp;#34; }, &amp;#34;Default&amp;#34;), m(Range, { id: &amp;#34;default-range&amp;#34; }), ]), ]), m(&amp;#34;div&amp;#34;, [ m(&amp;#34;div&amp;#34;, { class: &amp;#34;mb-1 block&amp;#34; }, [ m(Label, { for: &amp;#34;disabled-range&amp;#34; }, &amp;#34;Disabled&amp;#34;), m(Range, { id: &amp;#34;disabled-range&amp;#34;, disabled: true }), ]), ]), m(&amp;#34;div&amp;#34;, [ m(&amp;#34;div&amp;#34;, { class: &amp;#34;mb-1 block&amp;#34; }, [ m(Label, { for: &amp;#34;sm-range&amp;#34; }, &amp;#34;Small&amp;#34;), m(Range, { id: &amp;#34;sm-range&amp;#34;, size: &amp;#34;sm&amp;#34; }), ]), ]), m(&amp;#34;div&amp;#34;, [ m(&amp;#34;div&amp;#34;, { class: &amp;#34;mb-1 block&amp;#34; }, [ m(Label, { for: &amp;#34;md-range&amp;#34; }, &amp;#34;Medium&amp;#34;), m(Range, { id: &amp;#34;md-range&amp;#34;, size: &amp;#34;md&amp;#34; }), ]), ]), m(&amp;#34;div&amp;#34;, [ m(&amp;#34;div&amp;#34;, { class: &amp;#34;mb-1 block&amp;#34; }, [ m(Label, { for: &amp;#34;lg-range&amp;#34; }, &amp;#34;Large&amp;#34;), m(Range, { id: &amp;#34;lg-range&amp;#34;, size: &amp;#34;lg&amp;#34; }), ]), ]), ), }; Theme # To learn more about how to customize the appearance of components, please see the Theme docs.</description>
     </item>
     <item>
       <title>Select</title>
-      <link>http://localhost:1313/flowbite-mithril/forms/select/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/forms/select/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/forms/select/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/forms/select/</guid>
       <description>Default select # This component can be used to allow users to select from multiple options based on the &amp;lt;Select&amp;gt; component.&#xA;Edit on GitHub import { Label, Select } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(&amp;#34;div&amp;#34;, { class: &amp;#34;max-w-md&amp;#34; }, [ m(&amp;#34;div&amp;#34;, { class: &amp;#34;mb-2 block&amp;#34; }, m(Label, { for: &amp;#34;countries&amp;#34; }, &amp;#34;Select your country&amp;#34;)), m(Select, { id: &amp;#34;countries&amp;#34;, required: true }, [ m(&amp;#34;option&amp;#34;, &amp;#34;United States&amp;#34;), m(&amp;#34;option&amp;#34;, &amp;#34;Canada&amp;#34;), m(&amp;#34;option&amp;#34;, &amp;#34;France&amp;#34;), m(&amp;#34;option&amp;#34;, &amp;#34;Germany&amp;#34;), ]), ]), }; Theme # To learn more about how to customize the appearance of components, please see the Theme docs.</description>
     </item>
     <item>
       <title>Sidebar</title>
-      <link>http://localhost:1313/flowbite-mithril/components/sidebar/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/sidebar/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/sidebar/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/sidebar/</guid>
       <description>The sidebar component is an UI component that you can use for the navigation mechanism in your website or application that you would position to the left or right side of your page.&#xA;A sidebar can include content such as menu list items, dropdown, user profile information, CTA buttons, and more. All interactivity and options are handled by using Mithril attributes and you can customise the appearance of the navbar using the classes from Tailwind CSS.</description>
     </item>
     <item>
       <title>Spinner</title>
-      <link>http://localhost:1313/flowbite-mithril/components/spinner/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/components/spinner/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/components/spinner/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/components/spinner/</guid>
       <description>The spinner component should be used to indicate a loading status of the content that you&amp;rsquo;re fetching from your database and you can choose from multiple styles, colors, sizes, and animations based on Mithril and Tailwind CSS.&#xA;Default spinner # Use the default spinner element by adding the &amp;lt;Spinner&amp;gt; Mithril component inside your code and integrate the aria-label attribute to allow screen readers parse the component for accessibility.&#xA;Edit on GitHub import { Spinner } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(Spinner, { &amp;#34;aria-label&amp;#34;: &amp;#34;Default status example&amp;#34; }), }; Theme # To learn more about how to customize the appearance of components, please see the Theme docs.</description>
     </item>
     <item>
       <title>Textarea</title>
-      <link>http://localhost:1313/flowbite-mithril/forms/textarea/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/forms/textarea/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/forms/textarea/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/forms/textarea/</guid>
       <description>The textarea component is a multi-line text field input that can be used to receive longer chunks of text from the user in the form of a comment box, description field, and more.&#xA;Default textarea # Use this example to show a textarea component and receive longer text from your users.&#xA;Edit on GitHub import { Label, Textarea } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(&amp;#34;div&amp;#34;, { class: &amp;#34;max-w-md&amp;#34; }, [ m(&amp;#34;div&amp;#34;, { class: &amp;#34;mb-2 block&amp;#34; }, m(Label, { for: &amp;#34;comment&amp;#34; }, &amp;#34;Your message&amp;#34;)), m(Textarea, { id: &amp;#34;comment&amp;#34;, placeholder: &amp;#34;Leave a comment.</description>
     </item>
     <item>
       <title>Theme</title>
-      <link>http://localhost:1313/flowbite-mithril/customize/theme/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/customize/theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/customize/theme/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/customize/theme/</guid>
       <description>Flowbite Mithril is built on top of Tailwind CSS and it uses Tailwind CSS classes to style the components. This means that you can customize the components by changing the Tailwind CSS classes used by the components.&#xA;You have a few options, and each has its own pros and cons.&#xA;Option 1: Change the Tailwind CSS classes directly in the component # This is the easiest way to customize the components.</description>
     </item>
     <item>
       <title>Toggle</title>
-      <link>http://localhost:1313/flowbite-mithril/forms/toggle/</link>
+      <link>https://patopesto.github.io/flowbite-mithril/forms/toggle/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/forms/toggle/</guid>
+      <guid>https://patopesto.github.io/flowbite-mithril/forms/toggle/</guid>
       <description>The toggle component can be used to receive a simple “yes” or “no” type of answer from the user by choosing a single option from two options available.&#xA;Default toggle # Edit on GitHub import { Label, Toggle } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex max-w-md flex-col gap-4&amp;#34; }, [ m(Toggle, { id: &amp;#34;toggle&amp;#34;, label: &amp;#34;Toggle me&amp;#34; }), m(Toggle, { id: &amp;#34;toggle-checked&amp;#34;, checked: true, label: &amp;#34;Toggle me (checked)&amp;#34; }), m(Toggle, { id: &amp;#34;toggle-disabled&amp;#34;, disabled: true, label: &amp;#34;Toggle me (disabled)&amp;#34; }), m(Toggle, { id: &amp;#34;toggle-disabled-checked&amp;#34;, disabled: true, checked: true, label: &amp;#34;Toggle me (disabled)&amp;#34; }), ]), }; Theme # To learn more about how to customize the appearance of components, please see the Theme docs.</description>
     </item>
   </channel>
