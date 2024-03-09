@@ -5,8 +5,8 @@ description: Use the sidebar component to show a list of menu items including mu
 group: components
 toc: true
 
-previous: Navbar
-previousLink: components/navbar/
+previous: Progress Bar
+previousLink: components/progress/
 next: Spinner
 nextLink: components/spinner/
 ---

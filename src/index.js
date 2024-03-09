@@ -16,6 +16,7 @@ export * from "./components/Kbd/index.js";
 export * from "./components/Label/index.js";
 export * from "./components/ListGroup/index.js";
 export * from "./components/Navbar/index.js";
+export * from "./components/Progress/index.js";
 export * from "./components/Radio/index.js";
 export * from "./components/Range/index.js";
 export * from "./components/Select/index.js";

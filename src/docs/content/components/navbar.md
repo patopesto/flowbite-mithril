@@ -7,8 +7,8 @@ toc: true
 
 previous: List Group
 previousLink: components/list-group/
-next: Sidebar
-nextLink: components/sidebar/
+next: Progress Bar
+nextLink: components/progress/
 ---
 
 The navbar component is an important section of any website as it is the first section that appears on any page and it serves the purpose of allowing your users to navigate throughout your website.

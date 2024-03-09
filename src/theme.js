@@ -16,6 +16,7 @@ import { kbdTheme } from "./components/Kbd/theme.js";
 import { labelTheme } from "./components/Label/theme.js";
 import { listGroupTheme } from "./components/ListGroup/theme.js";
 import { navbarTheme } from "./components/Navbar/theme.js";
+import { progressTheme } from "./components/Progress/theme.js";
 import { radioTheme } from "./components/Radio/theme.js";
 import { rangeTheme } from "./components/Range/theme.js";
 import { selectTheme } from "./components/Select/theme.js";
@@ -45,6 +46,7 @@ export const theme = {
   label: labelTheme,
   listGroup: listGroupTheme,
   navbar: navbarTheme,
+  progress: progressTheme,
   radio: radioTheme,
   range: rangeTheme,
   select: selectTheme,

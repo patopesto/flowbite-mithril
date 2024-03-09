@@ -127,6 +127,13 @@
       <description>The navbar component is an important section of any website as it is the first section that appears on any page and it serves the purpose of allowing your users to navigate throughout your website.&#xA;Generally, the navigation bar consists of the logo of your website, a list of menu items for navigation and other secondary elements such as buttons, dropdowns, and a hamburger menu for mobile devices.&#xA;All interactivity and options are handled by using Mithril attributes and you can customise the appearance of the navbar using the classes from Tailwind CSS.</description>
     </item>
     <item>
+      <title>Progress Bar</title>
+      <link>http://localhost:1313/flowbite-mithril/components/progress/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/flowbite-mithril/components/progress/</guid>
+      <description>Use the progress bar component from Flowbite Mithril to show the percentage and completion rate of a given task using a visually friendly bar meter based on multiple styles and sizes.&#xA;Choose one of the examples below for your application and use the Mithril attributes to update the progress fill rate, label, sizing, and colors and customize with the classes from Tailwind CSS.&#xA;Default progress bar # Use this example to show a progress bar where you can set the progress rate using the progress attribute which should be a number from 1 to 100.</description>
+    </item>
+    <item>
       <title>Quickstart</title>
       <link>http://localhost:1313/flowbite-mithril/getting-started/quickstart/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

@@ -28,7 +28,7 @@ Work in progress.
 |    Modal     | ❌    |
 |    Navbar    | ✅    |
 |  Pagination  | ❌    |
-| Progress bar | ❌    |
+| Progress bar | ✅    |
 |    Rating    | ❌    |
 |   Sidebar    | ✅    | `collapsed` attribute needs to be manually set for all children |
 |   Spinner    | ✅    |

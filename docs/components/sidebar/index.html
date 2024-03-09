@@ -16,7 +16,7 @@
 
 
 
-<link rel="stylesheet" href="/flowbite-mithril/css/styles.dev.1709939103825.css">
+<link rel="stylesheet" href="/flowbite-mithril/css/styles.dev.1709963447663.css">
 <script src="https://cdn.tailwindcss.com"></script>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.css" rel="stylesheet" />
 
@@ -147,6 +147,9 @@
             <a href="/flowbite-mithril/components/navbar/" data-sidebar-item class="py-2 transition-colors duration-200 relative flex items-center flex-wrap font-medium hover:text-gray-900 text-gray-500 dark:text-gray-400 dark:hover:text-white ">Navbar </a>
           </li>
           <li>
+            <a href="/flowbite-mithril/components/progress/" data-sidebar-item class="py-2 transition-colors duration-200 relative flex items-center flex-wrap font-medium hover:text-gray-900 text-gray-500 dark:text-gray-400 dark:hover:text-white ">Progress </a>
+          </li>
+          <li>
             <a href="/flowbite-mithril/components/sidebar/" data-sidebar-item class="py-2 transition-colors duration-200 relative flex items-center flex-wrap font-medium hover:text-gray-900 text-gray-500 dark:text-gray-400 dark:hover:text-white  !text-blue-700 hover:!text-blue-700 dark:!text-blue-500 dark:hover:!text-blue-500" aria-current="page">Sidebar </a>
           </li>
           <li>
@@ -266,7 +269,7 @@ All interactivity and options are handled by using Mithril attributes and you ca
   var root = document.getElementById("example-default")
 
   
-import { Sidebar } from "https://alexferl.github.io/flowbite-mithril/js/flowbite-mithril.js";
+import { Sidebar } from "http://localhost:1313/flowbite-mithril/js/flowbite-mithril.js";
 import { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon, ColumnIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/solid/index.js";
 import { ShoppingBagIcon, TableRowIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/outline/index.js";
 
@@ -320,7 +323,7 @@ const Component = {
     <div class="relative border-gray-200 border-y border-x code-syntax dark:border-gray-600">
       <div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { Sidebar } from <span style="color:#a5d6ff">&#34;flowbite-mithril&#34;</span>;
-</span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon, ColumnIcon } from <span style="color:#a5d6ff">&#34;flowbite-icons-mithril/solid&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon } from <span style="color:#a5d6ff">&#34;flowbite-icons-mithril/solid&#34;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { ShoppingBagIcon, TableRowIcon } from <span style="color:#a5d6ff">&#34;flowbite-icons-mithril/outline&#34;</span>;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#ff7b72">const</span> Component <span style="color:#ff7b72;font-weight:bold">=</span> {
@@ -353,8 +356,8 @@ const Component = {
   var root = document.getElementById("example-multi-level")
 
   
-import { Sidebar } from "https://alexferl.github.io/flowbite-mithril/js/flowbite-mithril.js";
-import { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon, ColumnIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/solid/index.js";
+import { Sidebar } from "http://localhost:1313/flowbite-mithril/js/flowbite-mithril.js";
+import { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/solid/index.js";
 import { ShoppingBagIcon, TableRowIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/outline/index.js";
 
 const Component = {
@@ -444,7 +447,7 @@ const Component = {
   var root = document.getElementById("example-content-separator")
 
   
-import { Sidebar } from "https://alexferl.github.io/flowbite-mithril/js/flowbite-mithril.js";
+import { Sidebar } from "http://localhost:1313/flowbite-mithril/js/flowbite-mithril.js";
 import { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon, ColumnIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/solid/index.js";
 import { ShoppingBagIcon, TableRowIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/outline/index.js";
 
@@ -500,7 +503,7 @@ const Component = {
   <div class="code-syntax-wrapper">
     <div class="relative border-gray-200 border-y border-x code-syntax dark:border-gray-600">
       <div class="highlight"><pre tabindex="0" style="color:#e6edf3;background-color:#0d1117;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { Sidebar } from <span style="color:#a5d6ff">&#34;flowbite-mithril&#34;</span>;
+</span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { Sidebar, Badge } from <span style="color:#a5d6ff">&#34;flowbite-mithril&#34;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon, ColumnIcon } from <span style="color:#a5d6ff">&#34;flowbite-icons-mithril/solid&#34;</span>;
 </span></span><span style="display:flex;"><span><span style="color:#ff7b72">import</span> { ShoppingBagIcon, TableRowIcon } from <span style="color:#a5d6ff">&#34;flowbite-icons-mithril/outline&#34;</span>;
 </span></span><span style="display:flex;"><span>
@@ -540,7 +543,7 @@ const Component = {
   var root = document.getElementById("example-cta")
 
   
-import { Sidebar } from "https://alexferl.github.io/flowbite-mithril/js/flowbite-mithril.js";
+import { Sidebar, Badge } from "http://localhost:1313/flowbite-mithril/js/flowbite-mithril.js";
 import { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon, ColumnIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/solid/index.js";
 import { ShoppingBagIcon, TableRowIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/outline/index.js";
 
@@ -637,7 +640,7 @@ const Component = {
   var root = document.getElementById("example-logo")
 
   
-import { Sidebar } from "https://alexferl.github.io/flowbite-mithril/js/flowbite-mithril.js";
+import { Sidebar } from "http://localhost:1313/flowbite-mithril/js/flowbite-mithril.js";
 import { ArrowRightIcon, ChartPieIcon, InboxIcon, UserIcon, ColumnIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/solid/index.js";
 import { ShoppingBagIcon, TableRowIcon } from "https://unpkg.com/flowbite-icons-mithril@0.6.0/dist/outline/index.js";
 
@@ -763,9 +766,9 @@ const Component = {
 
             <aside class="flex mt-6 mb-8 font-medium leading-6" aria-label="Previous and next page navigation">
               
-              <a class="flex items-center justify-center mr-8 text-gray-500 transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" href="/flowbite-mithril/components/navbar/"><svg class="w-3.5 h-3.5 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
+              <a class="flex items-center justify-center mr-8 text-gray-500 transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" href="/flowbite-mithril/components/progress/"><svg class="w-3.5 h-3.5 mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 5H1m0 0 4 4M1 5l4-4"/>
-              </svg>Navbar</a>
+              </svg>Progress Bar</a>
               
               
               <a class="flex items-center justify-center ml-auto text-right text-gray-500 transition-colors duration-200 hover:text-gray-900 dark:text-gray-400 dark:hover:text-white" href="/flowbite-mithril/components/spinner/">Spinner<svg class="w-3.5 h-3.5 ml-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
