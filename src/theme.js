@@ -15,6 +15,7 @@ import { inputTheme } from "./components/Input/theme.js";
 import { kbdTheme } from "./components/Kbd/theme.js";
 import { labelTheme } from "./components/Label/theme.js";
 import { listGroupTheme } from "./components/ListGroup/theme.js";
+import { modalTheme } from "./components/Modal/theme.js";
 import { navbarTheme } from "./components/Navbar/theme.js";
 import { progressTheme } from "./components/Progress/theme.js";
 import { radioTheme } from "./components/Radio/theme.js";
@@ -45,6 +46,7 @@ export const theme = {
   kbd: kbdTheme,
   label: labelTheme,
   listGroup: listGroupTheme,
+  modal: modalTheme,
   navbar: navbarTheme,
   progress: progressTheme,
   radio: radioTheme,

@@ -5,8 +5,8 @@ description: The navbar component can be used to show a list of navigation links
 group: components
 toc: true
 
-previous: List Group
-previousLink: components/list-group/
+previous: Modal
+previousLink: components/modal/
 next: Progress Bar
 nextLink: components/progress/
 ---

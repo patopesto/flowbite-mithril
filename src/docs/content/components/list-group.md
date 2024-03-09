@@ -7,8 +7,8 @@ toc: true
 
 previous: KBD
 previousLink: components/kbd/
-next: Navbar
-nextLink: components/navbar/
+next: Modal
+nextLink: components/modal/
 ---
 
 The list group component can be used to show a list of items inside an unordered list for website navigation, show a list of items inside a card, and more.
