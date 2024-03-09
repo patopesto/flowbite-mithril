@@ -23,7 +23,9 @@ export const Toggle = {
     } = attrs;
     const theme = mergeDeep(toggleTheme, customTheme);
 
-    const toggle = () => (state.toggled = !state.toggled);
+    const toggle = () => {
+      state.toggled = !state.toggled;
+    };
 
     const handleClick = () => {
       if (!disabled) {

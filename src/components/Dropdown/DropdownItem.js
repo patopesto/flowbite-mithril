@@ -9,7 +9,9 @@ export const DropdownItem = {
     const { class: className, icon: Icon, theme: customTheme = {}, ...props } = attrs;
     const theme = mergeDeep(dropdownTheme.floating.item, customTheme);
 
-    const toggle = () => (state.isActive = !state.isActive);
+    const toggle = () => {
+      state.isActive = !state.isActive;
+    };
 
     return m(
       "li",

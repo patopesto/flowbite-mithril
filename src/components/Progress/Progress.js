@@ -6,16 +6,16 @@ import { progressTheme } from "./theme.js";
 export const Progress = {
   view({ attrs, children }) {
     const {
-      id ='progressbar',
+      id = "progressbar",
       class: className,
-      color = 'cyan',
+      color = "cyan",
       labelProgress = false,
       labelText = false,
       progress,
-      progressLabelPosition = 'inside',
-      size = 'md',
-      textLabel = 'progressbar',
-      textLabelPosition = 'inside',
+      progressLabelPosition = "inside",
+      size = "md",
+      textLabel = "progressbar",
+      textLabelPosition = "inside",
       theme: customTheme = {},
       ...props
     } = attrs;
@@ -25,30 +25,29 @@ export const Progress = {
       "div",
       {
         id: id,
-        'aria-label': textLabel,
-        'aria-valuenow': progress,
-        role: 'progressbar',
+        "aria-label": textLabel,
+        "aria-valuenow": progress,
+        role: "progressbar",
         ...props,
       },
-      [((textLabel && labelText && textLabelPosition === 'outside') ||
-        (progress > 0 && labelProgress && progressLabelPosition === 'outside')) &&
-        m("div", { class: theme.label },
-          [textLabel && labelText && textLabelPosition === 'outside' &&
-            m("span", textLabel),
-          ],
-          [labelProgress && progressLabelPosition === 'outside' &&
-            m("span", progress + "%"),
-          ],
-        ),
+      [
+        ((textLabel && labelText && textLabelPosition === "outside") ||
+          (progress > 0 && labelProgress && progressLabelPosition === "outside")) &&
+          m(
+            "div",
+            { class: theme.label },
+            [textLabel && labelText && textLabelPosition === "outside" && m("span", textLabel)],
+            [labelProgress && progressLabelPosition === "outside" && m("span", `${progress}%`)],
+          ),
       ],
-      m("div", { class: twMerge(theme.base, theme.size[size], className) },
-        m("div", { style: 'width: ' + progress + "%", class: twMerge(theme.bar, theme.color[color], theme.size[size]) },
-          [textLabel && labelText && textLabelPosition === 'inside' &&
-            m("span", textLabel),
-          ],
-          [progress > 0 && labelProgress && progressLabelPosition === 'inside' &&
-            m("span", progress + "%"),
-          ],
+      m(
+        "div",
+        { class: twMerge(theme.base, theme.size[size], className) },
+        m(
+          "div",
+          { style: `width: ${progress}%`, class: twMerge(theme.bar, theme.color[color], theme.size[size]) },
+          [textLabel && labelText && textLabelPosition === "inside" && m("span", textLabel)],
+          [progress > 0 && labelProgress && progressLabelPosition === "inside" && m("span", `${progress}%`)],
         ),
       ),
     );

@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Customizes on Flowbite Mithril</title>
-    <link>http://localhost:1313/flowbite-mithril/customize/</link>
+    <link>https://alexferl.github.io/flowbite-mithril/customize/</link>
     <description>Recent content in Customizes on Flowbite Mithril</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <atom:link href="http://localhost:1313/flowbite-mithril/customize/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://alexferl.github.io/flowbite-mithril/customize/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Theme</title>
-      <link>http://localhost:1313/flowbite-mithril/customize/theme/</link>
+      <link>https://alexferl.github.io/flowbite-mithril/customize/theme/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/flowbite-mithril/customize/theme/</guid>
+      <guid>https://alexferl.github.io/flowbite-mithril/customize/theme/</guid>
       <description>Flowbite Mithril is built on top of Tailwind CSS and it uses Tailwind CSS classes to style the components. This means that you can customize the components by changing the Tailwind CSS classes used by the components.&#xA;You have a few options, and each has its own pros and cons.&#xA;Option 1: Change the Tailwind CSS classes directly in the component # This is the easiest way to customize the components.</description>
     </item>
   </channel>
