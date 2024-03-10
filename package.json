@@ -27,7 +27,10 @@
     }
   },
   "scripts": {
-    "build": "vite build",
+    "build": "npm run build:lib",
+    "build:lib": "vite build --config vite.config.js",
+    "build:docs": "vite build --config vite.config.docs.js",
+    "build:all": "npm run build:lib && npm run build:docs",
     "lint": "npx @biomejs/biome check .",
     "format": "npx @biomejs/biome format . --write"
   },
