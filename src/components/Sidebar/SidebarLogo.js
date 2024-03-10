@@ -10,7 +10,6 @@ export const SidebarLogo = {
       href,
       img,
       imgAlt,
-      collapsed: isCollapsed = false,
       theme: customTheme = {},
       ...props
     } = attrs;
@@ -27,7 +26,7 @@ export const SidebarLogo = {
       m(
         "span",
         {
-          class: theme.collapsed[isCollapsed ? "on" : "off"],
+          class: theme.label,
         },
         children,
       ),

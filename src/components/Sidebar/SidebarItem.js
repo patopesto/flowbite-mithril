@@ -5,12 +5,15 @@ import { sidebarTheme } from "./theme.js";
 import { Badge } from "../Badge/Badge.js";
 
 export const SidebarItem = {
+  isInsideCollapse: false,
+  oncreate({ state, attrs }) {
+    const { isInsideCollapse = false } = attrs;
+    state.isInsideCollapse = isInsideCollapse;
+  },
   view({ attrs, children, state }) {
     const {
       class: className,
       as: Component = "a",
-      collapsed: isCollapsed = false,
-      isInsideCollapse = false,
       active,
       icon,
       label,
@@ -28,7 +31,6 @@ export const SidebarItem = {
           class: twMerge(
             theme.base,
             active && theme.active,
-            isCollapsed && isInsideCollapse && theme.collapsed?.insideCollapse,
             className,
           ),
           ...props,
@@ -38,26 +40,21 @@ export const SidebarItem = {
             "aria-hidden": "true",
             class: twMerge(theme.icon?.base, active && theme.icon?.active),
           }),
-        isCollapsed &&
-          !icon &&
-          m("span", {
-            class: theme.collapsed?.noIcon,
-          }),
-        !isCollapsed &&
-          m(
-            "span",
-            {
-              class: twMerge(theme.content.base),
-            },
-            children,
-          ),
-        !isCollapsed &&
-          label &&
+        m(
+          "span",
+          {
+            class: twMerge(
+              theme.content.base,
+              state.isInsideCollapse && theme.content.collapse,
+            ),
+          },
+          children,
+        ),
+        label &&
           m(
             Badge,
             {
               class: theme.label,
-              hidden: isCollapsed,
               color: labelColor,
             },
             label,

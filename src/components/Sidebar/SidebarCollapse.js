@@ -24,7 +24,6 @@ export const SidebarCollapse = {
       icon,
       label,
       ChevronIcon = ChevronDownIcon,
-      collapsed: isCollapsed = false,
       theme: customTheme = {},
       ...props
     } = attrs;
@@ -47,17 +46,11 @@ export const SidebarCollapse = {
           m(icon, {
             class: twMerge(theme.icon.base, theme.icon.open[state.isOpen ? "on" : "off"]),
           }),
-        [
-          isCollapsed
-            ? m("span", { class: "sr-only" }, label)
-            : [
-                m("span", { class: theme.label.base }, label),
-                m(ChevronIcon, {
-                  "aria-hidden": "true",
-                  class: twMerge(theme.label.icon.base, theme.label.icon.open[state.isOpen ? "on" : "off"]),
-                }),
-              ],
-        ],
+        m("span", { class: theme.label.base }, label),
+        m(ChevronIcon, {
+          "aria-hidden": "true",
+          class: twMerge(theme.label.icon.base, theme.label.icon.open[state.isOpen ? "on" : "off"]),
+        }),
       ),
       m(
         "ul",

@@ -1,17 +1,17 @@
 export const sidebarTheme = {
   root: {
-    base: "h-full",
+    base: "fixed top-0 left-0 z-40 w-64 h-screen transition-transform -translate-x-full",
     collapsed: {
       on: "w-16",
       off: "w-64",
     },
-    inner: "h-full overflow-y-auto overflow-x-hidden rounded bg-gray-50 py-4 px-3 dark:bg-gray-800",
+    inner: "h-full px-3 py-4 overflow-y-auto bg-gray-50 dark:bg-gray-800",
   },
   collapse: {
     button:
       "group flex w-full items-center rounded-lg p-2 text-base font-normal text-gray-900 transition duration-75 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700",
     icon: {
-      base: "h-6 w-6 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white",
+      base: "h-5 w-5 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white",
       open: {
         off: "",
         on: "text-gray-900",
@@ -20,7 +20,7 @@ export const sidebarTheme = {
     label: {
       base: "ml-3 flex-1 whitespace-nowrap text-left",
       icon: {
-        base: "h-6 w-6 transition ease-in-out delay-0",
+        base: "h-3 w-3 transition ease-in-out delay-0",
         open: {
           on: "rotate-180",
           off: "",
@@ -48,15 +48,12 @@ export const sidebarTheme = {
   item: {
     base: "flex items-center justify-center rounded-lg p-2 text-base font-normal text-gray-900 hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700",
     active: "bg-gray-100 dark:bg-gray-700",
-    collapsed: {
-      insideCollapse: "group w-full pl-8 transition duration-75",
-      noIcon: "font-bold",
-    },
     content: {
       base: "px-3 flex-1 whitespace-nowrap",
+      collapse: "group w-full pl-8 transition duration-75",
     },
     icon: {
-      base: "h-6 w-6 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white",
+      base: "h-5 w-5 flex-shrink-0 text-gray-500 transition duration-75 group-hover:text-gray-900 dark:text-gray-400 dark:group-hover:text-white",
       active: "text-gray-700 dark:text-gray-100",
     },
     label: "",
@@ -66,14 +63,11 @@ export const sidebarTheme = {
     base: "",
   },
   itemGroup: {
-    base: "mt-4 space-y-2 border-t border-gray-200 pt-4 first:mt-0 first:border-t-0 first:pt-0 dark:border-gray-700",
+    base: "space-y-2 font-medium",
   },
   logo: {
     base: "mb-5 flex items-center pl-2.5",
-    collapsed: {
-      on: "hidden",
-      off: "self-center whitespace-nowrap text-xl font-semibold dark:text-white",
-    },
     img: "mr-3 h-6 sm:h-7",
+    label: "self-center whitespace-nowrap text-xl font-semibold dark:text-white",
   },
 };

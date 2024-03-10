@@ -8,7 +8,6 @@ export const SidebarCTA = {
     const {
       class: className,
       color = "info",
-      collapsed: isCollapsed = false,
       theme: customTheme = {},
       ...props
     } = attrs;
@@ -17,7 +16,6 @@ export const SidebarCTA = {
     return m(
       "div",
       {
-        hidden: isCollapsed,
         class: twMerge(theme.base, theme.color[color], className),
         ...props,
       },
