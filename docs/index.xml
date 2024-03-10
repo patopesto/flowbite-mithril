@@ -203,5 +203,12 @@
       <guid>https://alexferl.github.io/flowbite-mithril/forms/toggle/</guid>
       <description>The toggle component can be used to receive a simple “yes” or “no” type of answer from the user by choosing a single option from two options available.&#xA;Default toggle # Edit on GitHub import { Label, Toggle } from &amp;#34;flowbite-mithril&amp;#34;; const Component = { view: () =&amp;gt; m(&amp;#34;div&amp;#34;, { class: &amp;#34;flex max-w-md flex-col gap-4&amp;#34; }, [ m(Toggle, { id: &amp;#34;toggle&amp;#34;, label: &amp;#34;Toggle me&amp;#34; }), m(Toggle, { id: &amp;#34;toggle-checked&amp;#34;, checked: true, label: &amp;#34;Toggle me (checked)&amp;#34; }), m(Toggle, { id: &amp;#34;toggle-disabled&amp;#34;, disabled: true, label: &amp;#34;Toggle me (disabled)&amp;#34; }), m(Toggle, { id: &amp;#34;toggle-disabled-checked&amp;#34;, disabled: true, checked: true, label: &amp;#34;Toggle me (disabled)&amp;#34; }), ]), }; Theme # To learn more about how to customize the appearance of components, please see the Theme docs.</description>
     </item>
+    <item>
+      <title>Tooltip</title>
+      <link>https://alexferl.github.io/flowbite-mithril/components/tooltip/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://alexferl.github.io/flowbite-mithril/components/tooltip/</guid>
+      <description>Use the tooltip component to indicate helpful information when hovering over an element such as a button or link to improve the UI/UX of your website.&#xA;Choose from multiple options, layouts, styles, colors, and animations from the examples below and customize the content and options using the Mithril attributes and the utility classes from Tailwind CSS.&#xA;Default tooltip # Define the tooltip for a component by passing a target attribute containing the id of the element the tooltip should be triggered by.</description>
+    </item>
   </channel>
 </rss>

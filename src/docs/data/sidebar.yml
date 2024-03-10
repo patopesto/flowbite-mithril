@@ -28,6 +28,7 @@
     - title: Progress
     - title: Sidebar
     - title: Spinner
+    - title: Tooltip
 
 - title: Forms
   slug: forms
