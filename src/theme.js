@@ -26,6 +26,7 @@ import { spinnerTheme } from "./components/Spinner/theme.js";
 import { tableTheme } from "./components/Table/theme.js";
 import { textareaTheme } from "./components/Textarea/theme.js";
 import { toggleTheme } from "./components/Toggle/theme.js";
+import { tooltipTheme } from "./components/Tooltip/theme.js";
 
 export const theme = {
   accordion: accordionTheme,
@@ -57,4 +58,5 @@ export const theme = {
   table: tableTheme,
   textarea: textareaTheme,
   toggle: toggleTheme,
+  tooltip: tooltipTheme,
 };

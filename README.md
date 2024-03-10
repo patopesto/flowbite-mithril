@@ -9,46 +9,55 @@ Work in progress.
 ❌ = Not implemented
 
 ## Components
-|     Name     | Done | Notes                 |
-|:------------:|------|-----------------------|
-|  Accordion   | ✅    |
-|    Alert     | ✅    |
-|    Avatar    | ✅    |
-|    Badge     | ✅    |
-|  Breadcrumb  | ✅    |
-|    Button    | ✅    |
-| Button group | ✅    |
-|     Card     | ✅    |
-|   Carousel   | ❌    |
-|  Datepicker  | ❌    |
-|   Dropdown   | ✅    |
-|    Footer    | ✅    |
-|     KBD      | ✅    |
-|  List group  | ✅    |
-|    Modal     | ❌    |
-|    Navbar    | ✅    |
-|  Pagination  | ❌    |
-| Progress bar | ✅    |
-|    Rating    | ❌    |
-|   Sidebar    | ✅    | `collapsed` attribute needs to be manually set for all children |
-|   Spinner    | ✅    |
-|    Table     | 🚧   | Missing hover/striped |
-|     Tabs     | ❌    |
-|   Timeline   | ❌    |
-|    Toast     | ❌    |
-|   Tooltip    | ❌    |
+|     Name          | Done | Notes                 |
+|:-----------------:|------|-----------------------|
+|  Accordion        | ✅   |
+|    Alert          | ✅   |
+|    Avatar         | ✅   |
+|    Badge          | ✅   |
+|    Banner         | ❌   |
+| Bottom navigation | ❌   |
+|  Breadcrumb       | ✅   |
+|    Button         | ✅   |
+| Button group      | ✅   |
+|     Card          | ✅   |
+|   Carousel        | ❌   |
+|   Chat bubble     | ❌   |
+|   Clipboard       | ❌   |
+|   Datepicker      | ❌   |
+|   Device mockups  | ❌   |
+|   Drawer          | ❌   |
+|   Dropdown        | ✅   |
+|    Footer         | ✅   |
+|     KBD           | ✅   |
+|  List group       | ✅   |
+|    Modal          | ✅   |
+|    Navbar         | ✅   |
+|  Pagination       | ❌   |
+| Progress bar      | ✅   |
+|    Rating         | ❌   |
+|   Sidebar         | ✅   | `collapsed` attribute needs to be manually set for all children |
+|   Skeleton        | ❌   |
+|   Speed dial      | ❌   |
+|   Spinner         | ✅   |
+|   Stepper         | ❌   |
+|    Table          | 🚧   | Missing hover/striped |
+|     Tabs          | ❌   |
+|   Timeline        | ❌   |
+|    Toast          | ❌   |
+|   Tooltip         | ✅   |
 
 ## Forms
 |    Name    | Done | Notes            |
 |:----------:|------|------------------|
-|  Checkbox  | ✅    |
+|  Checkbox  | ✅   |
 | File Input | 🚧   | Missing dropzone |
-|   Input    | ✅    |
-|   Radio    | ✅    |
-|   Range    | ✅    |
-|   Select   | ✅    |
-|  Textarea  | ✅    |
-|   Toggle   | ✅    |
+|   Input    | ✅   |
+|   Radio    | ✅   |
+|   Range    | ✅   |
+|   Select   | ✅   |
+|  Textarea  | ✅   |
+|   Toggle   | ✅   |
 
 
 ## Typography

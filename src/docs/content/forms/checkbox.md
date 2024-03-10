@@ -5,8 +5,8 @@ description: Get started with the checkbox component to allow the user to select
 group: forms
 toc: true
 
-previous: Spinner
-previousLink: components/spinner/
+previous: Tooltip
+previousLink: components/tooltip/
 next: File Input
 nextLink: forms/file-input/
 ---

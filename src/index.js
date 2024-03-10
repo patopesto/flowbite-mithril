@@ -26,5 +26,6 @@ export * from "./components/Spinner/index.js";
 export * from "./components/Table/index.js";
 export * from "./components/Textarea/index.js";
 export * from "./components/Toggle/index.js";
+export * from "./components/Tooltip/index.js";
 
 export * from "./theme.js";
