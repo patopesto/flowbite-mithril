@@ -32,7 +32,8 @@
     "build:docs": "vite build --config vite.config.docs.js",
     "build:all": "npm run build:lib && npm run build:docs",
     "lint": "npx @biomejs/biome check .",
-    "format": "npx @biomejs/biome format . --write"
+    "format": "npx @biomejs/biome format . --write",
+    "prepare": "npm run build"
   },
   "dependencies": {
     "flowbite": "^2.2.0",
