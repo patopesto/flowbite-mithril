@@ -65,8 +65,6 @@ export const DropdownComponent = {
     } = attrs;
 
     const buttonProps = removeOptionsProps(props);
-    console.log(props);
-    console.log(buttonProps);
 
     const theme = mergeDeep(dropdownTheme, customTheme);
 
