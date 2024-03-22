@@ -64,7 +64,9 @@ export const DropdownComponent = {
       ...props
     } = attrs;
 
-    const theirProps = removeOptionsProps(props);
+    const buttonProps = removeOptionsProps(props);
+    console.log(props);
+    console.log(buttonProps);
 
     const theme = mergeDeep(dropdownTheme, customTheme);
 
@@ -91,6 +93,7 @@ export const DropdownComponent = {
               onclick: () => {
                 state.dropdown.toggle();
               },
+              ...buttonProps,
             },
             [label, arrowIcon && m(Icon, { class: theme.arrowIcon })],
           ),
@@ -99,7 +102,6 @@ export const DropdownComponent = {
         {
           id: state.menuId,
           class: twMerge(theme.floating.base, theme.floating.animation, "duration-100", className),
-          ...theirProps,
         },
         m("ul", { class: theme.content, tabIndex: -1 }, children),
       ),
