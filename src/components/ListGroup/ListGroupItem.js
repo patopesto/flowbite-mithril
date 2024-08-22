@@ -11,8 +11,6 @@ export const ListGroupItem = {
     const isLink = typeof href !== "undefined";
     const Component = isLink ? "a" : "button";
 
-    console.log("DISA", disabled);
-
     return m("li", { class: twMerge(theme.base, className) }, [
       m(
         Component,
